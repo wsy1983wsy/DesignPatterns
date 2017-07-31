@@ -1,4 +1,4 @@
-package simpleFactory;
+package abstractFactory;
 
 public class Operation {
   protected int a;

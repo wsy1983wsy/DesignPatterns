@@ -1,13 +1,12 @@
 # 工厂方法分类
 [代码地址：](https://github.com/18Gray/DesignPatterns/blob/master/src/simpleFactory/SimpleFactoryMain.java)
 
-![类图：](https://github.com/18Gray/DesignPatterns/blob/master/img/Singleton_Lazy_SynMethod.jpg)
-优点：内存只有一个实例，减少内存开销。
-缺点：没有接口，不能扩展；与单一职责冲突，一个类只实现一个逻辑，单例模式把要单例和业务逻辑融合在一个类了。
-适用场景：
-（1）要求生成唯一序列号。
-（2）项目需要一个共享访问点或共享数据，如全局计数器。
-（3）创建一个对象需要消耗资源过多。
+![类图：](https://github.com/18Gray/DesignPatterns/blob/master/img/Factory_Method.jpg)
+
+优点：符合迪米特法则，依赖倒转法则，里氏替换。好的封装性、扩展性，屏蔽产品类，解耦。
+缺点：
+使用场景：在所有需要生成产品对象的地方都可以用，只是需要对工厂类复杂度进行管理。直接目的：避免在代码中出现大量的new关键字。根本目的：将对象的创建统一起来便于维护和整体把控。
+
 
 # 单例模式应用
 
