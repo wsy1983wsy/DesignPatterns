@@ -36,7 +36,7 @@
 这是代码的地址：[懒汉模式](https://github.com/18Gray/DesignPatterns/blob/master/src/singleton/SingletonEnum.java)
 
 
-# 单例模式应用
+# 单例模式应用场景
 
 
 
