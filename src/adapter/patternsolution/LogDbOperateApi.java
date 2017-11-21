@@ -1,4 +1,4 @@
-package cn.javass.dp.adapter.example5;
+package adapter.patternsolution;
 import java.util.*;
 /**
  * 定义操作日志的应用接口，为了示例的简单，

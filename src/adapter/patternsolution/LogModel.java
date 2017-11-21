@@ -49,6 +49,6 @@ public class LogModel implements Serializable{
 	}
 	
 	public String toString(){
-		return "logId="+logId+",operateUser="+operateUser+",operateTime="+operateTime+",logContent="+logContent;
+		return "logId="+logId+",operateUser="+operateUser+",operateTime"+operateTime+",logContent="+logContent;
 	}
 }

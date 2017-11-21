@@ -1,4 +1,4 @@
-package cn.javass.dp.adapter.example3;
+package adapter.patternsolution;
 
 public class TimeUtil {
 	private long a1;
